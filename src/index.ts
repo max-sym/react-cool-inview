@@ -27,8 +27,7 @@ interface Event<T> {
   observe: Observe<T>;
   unobserve: () => void;
 }
-export interface 
-  <T> {
+export interface Options<T> {
   root?: HTMLElement | null;
   rootMargin?: string;
   threshold?: number | number[];
